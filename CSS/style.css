@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@300;400;500;600&display=swap');
+
 
 /* RESET & BASE */
 * {
@@ -65,7 +65,7 @@ nav ul a:hover {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
     background:radial-gradient(ellipse at center, #2a1a05 0%, #111008 70%);
 }
 
@@ -78,6 +78,7 @@ nav ul a:hover {
     text-align: center;
     width: 100%;
 }
+
 
 #hero p {
     font-size: 1.1rem;
@@ -131,13 +132,13 @@ nav ul a:hover {
 #menu h2, #lokasi h2, #cta h2 {
    font-size: 1.8rem;
    color: #e8a045;
-   margin-botton: 2.5rem;
+   margin-botton: 3.5rem;
    text-align: center;
 }
 
 .menu-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minimax(200px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
 
@@ -289,6 +290,10 @@ cursor: progress;
     .nav-links a {
         font-size: 1rem;
         color: #c9b99a;
+    }
+
+    .menu-grid {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
